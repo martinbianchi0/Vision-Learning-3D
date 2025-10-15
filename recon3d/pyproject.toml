@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recon3d"
+version = "0.0.1"
+description = "Herramientas ligeras para calibración estéreo, rectificación, disparidad y 3D"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{}]
+license = { text = "MIT" }
+keywords = ["stereo", "vision", "3D", "reconstruction", "calibration", "rectification"]
+dependencies = []
+
+[project.urls]
+
+[project.scripts]
+recon3d = "recon3d.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
