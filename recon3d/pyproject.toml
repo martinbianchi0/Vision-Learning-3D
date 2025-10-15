@@ -8,7 +8,7 @@ version = "0.0.1"
 description = "Herramientas ligeras para calibración estéreo, rectificación, disparidad y 3D"
 readme = "README.md"
 requires-python = ">=3.10"
-authors = [{}]
+authors = [{email = "email@email.com"}]
 license = { text = "MIT" }
 keywords = ["stereo", "vision", "3D", "reconstruction", "calibration", "rectification"]
 dependencies = []
